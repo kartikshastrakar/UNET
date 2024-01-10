@@ -95,7 +95,7 @@ if __name__ == "__main__":
     csv_path = os.path.join("files", "data.csv")
 
     """ Dataset """
-    dataset_path = "/media/nikhil/Seagate Backup Plus Drive/ML_DATASET/MontgomerySet"
+    dataset_path = "C:\Users\karti\OneDrive\Desktop\chat bot llama 2\Kreedalabs\Lung-Segmentation-in-TensorFlow-2.0\NLM-MontgomeryCXRSet\MontgomerySet\CXR_png"
     (train_x, train_y1, train_y2), (valid_x, valid_y1, valid_y2), (test_x, test_y1, test_y2) = load_data(dataset_path)
 
     print(f"Train: {len(train_x)} - {len(train_y1)} - {len(train_y2)}")
