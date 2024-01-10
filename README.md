@@ -72,6 +72,34 @@ The block diagram of the UNET architecture taken from the original paper.
 | :--: |
 | *U-Net Architecture* |
 
+## For installion
+The install following libraries:
+tensorflow
+glop
+Panda
+Numpy
+sk-learn
+
+1. Clone this repository to your local machine.
+
+    ```bash
+    git clone https://github.com/kartikshastrakar/UNET
+    cd UNET
+    ```
+
+2. Create a Python virtual environment (optional but recommended):
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  On Windows, use: venv\Scripts\activate
+    ``
+3. Run python Scripts
+   ```
+   python train.py
+   python model.py
+
+   ```  
+
 # Results
 The images below contains:
 1. Input image
